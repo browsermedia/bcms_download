@@ -39,7 +39,7 @@ By default, the CSV file will use all column names, to specify only the columns 
 add an additional attribute:
 
 	self.columns_for_download
-		$(column1 column2 column3 column4) # etc...
+		%w(column1 column2 column3 column4) # etc...
 	end
 	
 Only those columns you have specified will be used in the download. A full example implementation would be:
